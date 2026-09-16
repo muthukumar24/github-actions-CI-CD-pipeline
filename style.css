@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+/* Header content */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Header text */
+.header h1 {
+    margin: 0 0 10px;
+}
+
+.header p {
+    margin: 0;
+}
+
+/* Login Button */
+.login-button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Login Button Hover */
+.login-button:hover {
+    background-color: #ddd;
+}
+
+/* Counter Section */
+.counter-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.counter-section h2 {
+    font-size: 28px;
+}
+
+.counter-section p {
+    font-size: 24px;
+}
+
+/* Counter Button */
+#countButton {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#countButton:hover {
+    background-color: #333;
+}
