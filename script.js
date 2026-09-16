@@ -5,7 +5,13 @@ const countButton = document.getElementById("countButton");
 const countDisplay = document.getElementById("count");
 
 // Increase count when the button is clicked
-countButton.addEventListener("click", function() {
+countButtonOne.addEventListener("click", function() {
     count = count + 1;
+    countDisplay.textContent = count;
+});
+
+// Decrease count when the button is clicked
+countButtonTwo.addEventListener("click", function() {
+    count = count - 1;
     countDisplay.textContent = count;
 });

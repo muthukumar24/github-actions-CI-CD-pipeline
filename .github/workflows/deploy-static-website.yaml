@@ -72,6 +72,3 @@ jobs:
         id: deployment
         # Uses GitHub Pages deployment actions
         uses: actions/deploy-pages@v4
-    
-  
-    
