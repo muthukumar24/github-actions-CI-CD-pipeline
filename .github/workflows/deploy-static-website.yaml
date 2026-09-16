@@ -41,8 +41,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       # Step 3
-      # Packages the website files into an artifact that can be deployed later
-      # GitHub Pages
+      # Packages the website files into an artifact that can be deployed later to GitHub Pages
       - name: Upload website files
       # Uploading files as a Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -68,7 +67,7 @@ jobs:
     # Step 1
     # Deploys the pages artifact to GitHub Pages
       - name: Deploy to GitHub Pages
-        # Gives this step an ID called "deployment".
+        # Give this step an ID called "deployment".
         # This ID is used above: steps.deployment.outputs.page_url to get the URL of the deployed website.
         id: deployment
         # Uses GitHub Pages deployment actions
